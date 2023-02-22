@@ -90,13 +90,7 @@ button{
     background: none;
     border: none;
 }
-table p{
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    color: #FFFFFF;
-}
+
 .links{
     position: absolute;
     width: 600px;
@@ -286,14 +280,6 @@ top: 479px;
 .cont{
     overflow: hidden;
 }
-.number_name{
-    position: absolute;
-    
-    width: 856px;
-    height: 396px;
-    left: 325px;
-    top: 199px;
-}
 .head{
     position: absolute;
     
@@ -303,7 +289,7 @@ top: 479px;
     top: 70px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 10;
     line-height: 30px;
     text-decoration: none;
@@ -311,41 +297,80 @@ top: 479px;
 }
 .instruction{
     position: absolute;
-    
     width: 856px;
     height: 396px;
     left: 325px;
-    top: 120px;
+    top: 100px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 10;
-    line-height: 30px;
+    line-height: 50px;
     text-decoration: none;
     color: #FFFFFF;
 }
 table{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 10;
-    text-decoration: none;
+    font-size: 17px;
     color: #FFFFFF;
+    position: absolute;
+    top: 140px;
+    left: 400px;
 }
-.number_name  .ip{
-    position: relative;
-    width: 320px;
-    height: 28px;
+table td{
+    width: 300px;
+    padding-right: 30px;
+}
+table input{
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    top: 140px;
+    left: 400px;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(103, 144, 73, 0.3000000119);
+    border-radius: 9px;
+    height: 26px;
+    width: 300px;
+    border: none;
+}
+table p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 20px;
-    font-weight: 10;
-    line-height: 20px;
-    text-decoration: none;
+    font-size: 16px;
+    line-height: 15px;
     color: #FFFFFF;
+}
+.ls{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height:100%;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(103, 144, 73, 0.3000000119);
+}
+.less_score_error{
+    position: absolute;
+    background-color: #374b35;
+    top: 300px;
+    left: 500px;
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.less_score_error input{
+    padding: 15px;
     border: none;
-    background: rgba(103, 144, 73, 0.3);
-    backdrop-filter: blur(10px);
-    /* Note: backdrop-filter has minimal browser support */
-
-    border-radius: 5px;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
 }
