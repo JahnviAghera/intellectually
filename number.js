@@ -34,6 +34,7 @@ function check(){
         document.getElementById("link").className = "unblock";
     }
     else{
+        //document.getElementById("error").className = "unblock";
         document.getElementById("link").className = "block";
     }
 
@@ -74,3 +75,8 @@ function restart(){
     document.getElementById("tn10").innerHTML = null;
 
 }
+/*
+function hide(){
+    document.getElementById("error").className = "block";
+}
+*/
